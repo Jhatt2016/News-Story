@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle Teen News Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .read-more:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Seattle Teen Survives After Jumping from Aurora Bridge, Authorities Say</h1>
+        <p><strong>SEATTLE, WA –</strong> A Seattle teenager is recovering after jumping from the Aurora Bridge on Thursday afternoon, authorities confirmed. The incident prompted a rapid emergency response and temporarily disrupted traffic in the area.</p>
+
+        <p>According to witnesses, the teen was seen standing on the bridge’s railing before making the leap. Bystanders quickly called 911, and emergency personnel, including the Seattle Fire Department and Seattle Police, arrived on the scene within minutes...</p>
+
+        <p><strong>If you or someone you know is struggling, resources are available. The National Suicide Prevention Lifeline can be reached at <a href="tel:988">988</a> for confidential support 24/7.</strong></p>
+
+        <a href="https://www.localnews.com/seattle-teen-survives-aurora-bridge-jump" class="read-more" target="_blank">Read More</a>
+    </div>
+
+</body>
+</html>
