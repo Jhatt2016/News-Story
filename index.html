@@ -30,6 +30,18 @@
         .news-item {
             border-bottom: 1px solid #ddd;
             padding: 15px 0;
+            display: flex;
+            align-items: center;
+        }
+        .news-item img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .news-content {
+            flex: 1;
         }
         .news-item h2 {
             margin: 0;
@@ -59,14 +71,20 @@
     <div class="header">Seattle News</div>
     <div class="container">
         <div class="news-item">
-            <h2>Seattle Teen Survives After Jumping from Aurora Bridge</h2>
-            <p>A Seattle teenager is recovering after jumping from the Aurora Bridge on Thursday afternoon, authorities confirmed...</p>
-            <a href="#">Read More</a>
+            <img src="https://via.placeholder.com/150" alt="Aurora Bridge">
+            <div class="news-content">
+                <h2>Seattle Teen Survives After Jumping from Aurora Bridge</h2>
+                <p>A Seattle teenager is recovering after jumping from the Aurora Bridge on Thursday afternoon, authorities confirmed...</p>
+                <a href="#">Read More</a>
+            </div>
         </div>
         <div class="news-item">
-            <h2>City Council Proposes New Safety Measures for Bridges</h2>
-            <p>Following recent incidents, the Seattle City Council is considering implementing additional safety barriers...</p>
-            <a href="#">Read More</a>
+            <img src="https://via.placeholder.com/150" alt="Bridge Safety Measures">
+            <div class="news-content">
+                <h2>City Council Proposes New Safety Measures for Bridges</h2>
+                <p>Following recent incidents, the Seattle City Council is considering implementing additional safety barriers...</p>
+                <a href="#">Read More</a>
+            </div>
         </div>
     </div>
     <div class="footer">&copy; 2025 Seattle News. All Rights Reserved.</div>
